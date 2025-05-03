@@ -1,0 +1,610 @@
+body{
+    height: 200vh;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.personalBlogs{
+    position: relative;
+    display: inline-block;
+}
+
+.navBar{
+
+    position: fixed;
+    top: -2%;
+    width: 110vw;
+    z-index: 100;
+
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    
+    gap: 10%;
+    justify-content: center;
+    background-color: wheat;
+    padding: 0.7%;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a hover{
+        color: grey;
+    }
+}
+
+.groupBlogs{
+     position: absolute;
+    display: none;
+}
+
+.personalBlogs:hover .groupBlogs{
+     display: block;
+}
+
+.groupNav{
+    list-style: none;
+    width: 10vw;
+    background-color: black;
+    border-radius: 1em;
+    padding: 2%;
+}
+
+.hero{
+    /* background:linear-gradient(rgba(17, 16, 16, 0.5), rgba(0, 0, 0, 0.5)),  url(https://img.freepik.com/free-psd/reading-room-old-library-house-generative-ai_587448-1963.jpg?uid=R191993380&ga=GA1.1.360860165.1740996244&semt=ais_hybrid&w=740); */
+    background-color: maroon;  
+      height: 80vh;
+    color: white;
+    justify-content: center;
+    margin: -5%;
+
+}
+
+.heroContent{
+  width: 70%;
+  display: flex;
+  gap: 15%;
+  position: relative;
+  left: 10%;
+  top: 23%;
+  
+  
+     
+}
+
+.trevorBook{
+    h1{
+        font-size: 4em;
+        text-align: center;
+       }
+
+       h2{
+        font-size: 2em;
+        text-align: center ;
+
+       }
+       p{
+        font-size: 1.3em;
+       }
+}
+.trevorImage{
+    padding: 2%;
+    box-shadow: inset 4px 4px 10px  #dfb4b4, inset -4px -4px 10px #d3b1b1;
+
+}
+#trevorBookImage{
+   width: 15vw;
+}
+
+.body{
+    display: flex;
+}
+
+.leftSide{
+width: 15vw;
+}
+.rightSide{
+   width: 15vw;
+}
+.bodySection{
+width: 70vw;
+background-color: white;
+position: absolute;
+top: 65%;
+height: 200vh;
+left: 12%;
+padding: 4%;
+line-break: 2%;
+border-radius: 2%;
+overflow-y: scroll;
+
+box-shadow: 0 4px 8px 0 rgba(44, 44, 44, 0.2), 0 6px 20px 0 rgba(27, 27, 27, 0.19);
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+
+}
+}
+
+.contentBlog{
+    /* display: flex; */
+    gap: 4%;
+    line-height: 3vh;
+    font-size: 1em;
+}
+
+#identityImage{
+    width: 30vw;
+}
+
+#wedding{
+    width: 14vw;
+    /* margin-top: 15%; */
+    height: auto;
+    float: left;
+}
+.family{
+    float: left;
+    margin: 2vh;
+}
+
+#obama-family{
+    width: 30vw;
+    float: left;
+    height: auto;
+    margin: 2vh;
+    
+}
+
+
+
+#patriciaImage{
+    width: 30vw;
+}
+.identityText{
+    padding: 3%;
+}
+
+
+
+
+.footer{
+    position: absolute;
+    top: 300vh;
+    width: 70vw;
+    justify-self: center;
+    left: 18%;
+    font-size: 1.5em;
+    padding-top: 3%;
+    color: grey;
+
+    p{
+        text-align: center;
+    }
+}
+
+.footerSections{
+    display: flex;
+    gap: 20%;
+}
+
+.footerNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNav{
+    list-style: none;
+    display: flex;
+    gap: 25%;
+    margin-top: -3%;
+
+  li  a{
+        text-decoration: none;
+        color: grey;
+    }
+
+ li a:hover{
+    color: black;
+ }
+}
+
+@media only screen and (max-width:500px) and (min-width:0px){
+   body{
+    margin: 0%;
+    overflow-x: hidden;
+   }   
+.navBar{
+
+    position: fixed;
+    top: -2%;
+    width: 100vw;
+    z-index: 100;
+    font-size: 1em;
+    padding: 3%;
+    left: -2.7%;
+
+}
+
+
+
+
+.hero{
+    background-color: maroon;  
+      height: 80vh;
+    color: white;
+    justify-content: center;
+    margin: 0%;
+    width: 100vw;
+    padding: 1%;
+
+}
+
+
+
+.trevorImage{
+    padding: 3%;
+    padding-left: 25%;
+    box-shadow: none;
+    transform: scale(1.05);
+
+
+}
+#trevorBookImage{
+   width: 50vw;
+   transform: scale(1.05);
+
+}
+
+
+.heroContent{
+    width: 100%;
+    flex-direction: column;
+    left: 0%;
+    top: 15%;
+    padding: 2%;
+    
+    
+       
+  }
+
+
+
+
+  .body{
+    display: flex;
+}
+
+.leftSide{
+width: 15vw;
+}
+.rightSide{
+   width: 15vw;
+}
+
+.trevorBook{
+    h1{
+        font-size: 2em;
+        text-align: center;
+       }
+
+       h2{
+        font-size: 1.2em;
+        text-align: center ;
+       }
+       p{
+        font-size: 1em;
+       }
+}
+
+  .bodySection{
+    width: 90vw;
+    position: absolute;
+    top: 90%;
+    height: 200vh;
+    left: 0%;
+    padding: 4%;
+    line-break: 2%;
+    border-radius: 0%;
+    overflow-y: scroll;
+    
+    box-shadow: none;
+    
+    h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5em;
+        text-align: center;
+    
+    }
+    h3{
+        text-align: center;
+        font-size: 1em;
+    }
+    h4
+    {
+        text-align: center;
+        font-size: 1.7em;
+    
+    }
+    p{
+        font-size: 1.2em;
+    }
+    }
+
+
+    .contentBlog{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+#identityImage{
+    width: 90vw;
+}
+
+#legacyImage{
+    width: 90vw;
+    margin-top: 15%;
+}
+
+#familyImage{
+    width: 90vw;
+}
+
+#patriciaImage{
+    width: 90vw;
+}
+.identityText{
+    padding: 3%;
+}
+
+
+
+
+
+.footer{
+    width: 100vw;
+    justify-self: center;
+    font-size: 1.5em;
+  
+
+    p{
+        text-align: center;
+        font-size: 0.7em;
+    }
+}
+
+.footerSections{
+    flex-direction: column;
+}
+
+.footerNavBar{
+    flex-direction: column;
+
+}
+
+.footerNav{
+    flex-direction: column;
+
+    margin-top: 3%;
+    margin-left: -15%;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width:800px) and (min-width:501px){
+    body{
+        margin: 0%;
+        overflow-x: hidden;
+       }   
+    .navBar{
+    
+        position: fixed;
+        top: -2%;
+        width: 100vw;
+        z-index: 100;
+        font-size: 1em;
+        padding: 3%;
+        left: -2.7%;
+    
+    }
+    
+    
+    
+    
+    .hero{
+        background-color: maroon;  
+          height: 80vh;
+        color: white;
+        justify-content: center;
+        margin: 0%;
+        width: 100vw;
+        padding: 1%;
+    
+    }
+    
+    
+    
+    .trevorImage{
+        padding: 3%;
+        padding-left: 25%;
+        box-shadow: none;
+        transform: scale(1.05);
+    
+    
+    }
+    #trevorBookImage{
+       width: 50vw;
+       transform: scale(1.05);
+    
+    }
+    
+    
+    .heroContent{
+        width: 100%;
+        flex-direction: column;
+        left: 0%;
+        top: 15%;
+        padding: 2%;
+        
+        
+           
+      }
+    
+    
+    
+    
+      .body{
+        display: flex;
+    }
+    
+    .leftSide{
+    width: 15vw;
+    }
+    .rightSide{
+       width: 15vw;
+    }
+    
+    .trevorBook{
+        h1{
+            font-size: 2em;
+            text-align: center;
+           }
+    
+           h2{
+            font-size: 1.2em;
+            text-align: center ;
+           }
+           p{
+            font-size: 1em;
+           }
+    }
+    
+      .bodySection{
+        width: 90vw;
+        position: absolute;
+        top: 90%;
+        height: 200vh;
+        left: 0%;
+        padding: 4%;
+        line-break: 2%;
+        border-radius: 0%;
+        overflow-y: scroll;
+        
+        box-shadow: none;
+        
+        h1{
+            font-size: 2em;
+            text-align: center;
+        }
+        h2{
+            font-size: 1.5em;
+            text-align: center;
+        
+        }
+        h3{
+            text-align: center;
+            font-size: 1em;
+        }
+        h4
+        {
+            text-align: center;
+            font-size: 1.7em;
+        
+        }
+        p{
+            font-size: 1.2em;
+        }
+        }
+    
+    
+        .contentBlog{
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+    
+    
+    #identityImage{
+        width: 90vw;
+    }
+    
+    #legacyImage{
+        width: 90vw;
+        margin-top: 15%;
+    }
+    
+    #familyImage{
+        width: 90vw;
+    }
+    
+    #patriciaImage{
+        width: 90vw;
+    }
+    .identityText{
+        padding: 3%;
+    }
+    
+    
+    
+    
+    
+    .footer{
+        width: 100vw;
+        justify-self: center;
+        font-size: 1.5em;
+      
+    
+        p{
+            text-align: center;
+            font-size: 0.7em;
+        }
+    }
+    
+    .footerSections{
+        flex-direction: column;
+    }
+    
+    .footerNavBar{
+        flex-direction: column;
+    
+    }
+    
+    .footerNav{
+        flex-direction: column;
+    
+        margin-top: 3%;
+        margin-left: -15%;
+    
+    }
+    
+    
+    
+    
+}
