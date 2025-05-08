@@ -89,11 +89,21 @@ body{
     background-color: #f0f0f0; /* Color after scrolling */
     /* Add other styles to apply when scrolled 
   } */
+   .dropdown ul{
+    margin-top: -2px;
+   }
 
   .joinUs{
     background-color:rgb(204, 204, 221);
     padding: 10px;
-
+    
+  }
+  .joinUs p{
+    justify-content: center;
+    align-items: center;
+    transform: translate(35%);
+    font-size: large;
+    font-weight: 600;
   }
 
   .blog{
@@ -263,6 +273,7 @@ section{
   border-radius: 10px;
   display: flex;
   width: 50;
+  height: 60vh;
   
 }
 .obamareview img{
@@ -283,6 +294,16 @@ section{
   background-color: blue;
   color:white;
   border-radius: 10px;
+
+  .a{
+    color: wheat;
+  }
+}
+
+.blogContent a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
 }
 #readReview:hover{
   /* background-color: aliceblue; */
