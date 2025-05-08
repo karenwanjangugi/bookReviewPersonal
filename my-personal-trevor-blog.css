@@ -1,6 +1,7 @@
 body{
   font-family: sans-serif;
     margin: 0;
+    overflow-x: hidden;
 
 }
 
@@ -104,6 +105,13 @@ body{
     transform: translate(35%);
     font-size: large;
     font-weight: 600;
+  }
+  #joinUs{
+    text-decoration: underline;
+  }
+  #joinUs:hover{
+    text-decoration: none;
+    color: blue;
   }
 
   .blog{
